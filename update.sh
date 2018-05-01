@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "欢迎使用俊驰一键搭建"
-echo "即将搭建的是5.01版本"
+echo "欢迎使用Style一键搭建"
+echo "即将搭建的是5.02版本"
 echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
@@ -11,7 +11,7 @@ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
-echo "ss搭建成，请记住连接信息"
+echo "ssTap搭建成，请记住连接信息"
 read -p "记住了吗？任意键继续" 
 
 curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh | bash
@@ -28,8 +28,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/2070757673/junchi.git
-cd junchi/
+git clone https://github.com/StyleL/neibuban.git
+cd neibuban/
 npm i
 npm i -g pino
 npm install -g forever
