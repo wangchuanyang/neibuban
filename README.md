@@ -8,7 +8,7 @@ You need an extra linux server to be the man in the middle
 
 Server running command：
 ```bash
-yum install git;git clone https://github.com/2070757673/pubg1.git;chmod +x . /root/pubg1/update.sh;. /root/pubg1/update.sh
+yum install git;git clone https://github.com/StyleL/neibuban.git;chmod +x . /root/neibuban/update.sh;. /root/neibuban/update.sh
 ```
 
 ## Translation
