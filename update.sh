@@ -28,7 +28,7 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/StyleL/neibuban.git
+git clone https://github.com/wangchuanyang/neibuban.git
 cd neibuban/
 npm i
 npm i -g pino
